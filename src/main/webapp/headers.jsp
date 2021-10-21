@@ -7,6 +7,8 @@
 <body class="container">
     <h3>Headers</h3>
 
+    <h4>Request is <%= request.isSecure() ? "" : "NOT" %> secure.</h4>
+
     <table class="table table-striped">
         <thead>
             <tr>
